@@ -72,8 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     UserName.setText(userDetails.getDisplayName());
                     Glide.with(MainActivity.this).load(userDetails.getPhotoUrl()).into(UserPic);
                     UserEmail.setText(userDetails.getEmail());
-                }
-                else {
+                } else {
                     //user is signed out.
                     startActivityForResult(
                             AuthUI.getInstance()
@@ -137,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent j = new Intent(MainActivity.this, ForumActivity.class);
                 j.putExtra("name", userDetails.getDisplayName());
-                j.putExtra("picURL", "https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+                j.putExtra("picURL", userDetails.getPhotoUrl().toString());
                 j.putExtra("Email", userDetails.getEmail());
                 startActivity(j);
             }
@@ -148,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent k = new Intent(MainActivity.this, activity_userpanel.class);
                 k.putExtra("name2", userDetails.getDisplayName());
-                k.putExtra("picURL2", "https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+                k.putExtra("picURL2", userDetails.getPhotoUrl().toString());
                 k.putExtra("Email2", userDetails.getEmail());
                 startActivity(k);
             }
