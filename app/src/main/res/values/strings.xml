@@ -34,17 +34,17 @@
     <string name="close_drawer">Close Drawer</string>
     <string name="activity_name">Home Activity</string>
     <string name="contact_no">1234567890</string>
-    <string name="courses">Courses</string>
+
     <string name="discussion_form">Discussion Forum</string>
     <string name="user_panel">User Panel</string>
     <string name="question">New Question</string>
     <string name="register">Register</string>
 
     <string name="title_activity_userpanel">activity_userpanel</string>
-    <string name="tab_text_1">Summary</string>
-    <string name="tab_text_2">Activity</string>
+
+    <string name="tab_text_2">Score</string>
     <string name="tab_text_3">Notifications</string>
-    <string name="tab_text_4">Preferences</string>
+
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="user_activity">User Activity</string>

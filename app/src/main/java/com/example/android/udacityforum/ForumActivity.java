@@ -47,11 +47,14 @@ public class ForumActivity extends AppCompatActivity {
         RecyclerView rv = findViewById(R.id.recycler_view);
         FloatingActionButton fab_button = findViewById(R.id.fab_button);
         ArrayList<QuestionFormat> quesList = new ArrayList<>();
-        //sample data---------------------------------------
-        for (int i = 0; i < 15; i++) {
-            quesList.add(new QuestionFormat("heading " + i, "content " + i));
-        }
-        //-----------------------------------------------
+//        //sample data---------------------------------------
+//        for (int i = 0; i < 15; i++) {
+//            quesList.add(new QuestionFormat("heading " + i, "content " + i));
+//        }
+//        //-----------------------------------------------
+        quesList.add(new QuestionFormat("מה הסיבוכית של מיון בועות? ",  "במיון בועות יש 2 לולאות.. למחשבתך"));
+        quesList.add(new QuestionFormat("מה הסיבוכית של מיון מהיר? ",  "במיון מהיר יש לולאת פור וחצי לולאה.. למחשבתך"));
+
         MyForumRecyclerViewAdapter adapter = new MyForumRecyclerViewAdapter(quesList, this);
         rv.setAdapter(adapter);
         fab_button.setOnClickListener(new View.OnClickListener() {

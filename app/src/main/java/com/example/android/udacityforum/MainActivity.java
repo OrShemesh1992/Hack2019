@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.menu_profile:
                         Intent k = new Intent(MainActivity.this, activity_userpanel.class);
                         k.putExtra("name2", userDetails.getDisplayName());
-                        k.putExtra("picURL2", userDetails.getPhotoUrl().toString());
+                       // k.putExtra("picURL2", userDetails.getPhotoUrl().toString());
                         k.putExtra("Email2", userDetails.getEmail());
                         startActivity(k);
                         break;
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent j = new Intent(MainActivity.this, ForumActivity.class);
                 j.putExtra("name", userDetails.getDisplayName());
-                j.putExtra("picURL", userDetails.getPhotoUrl().toString());
+               // j.putExtra("picURL", userDetails.getPhotoUrl().toString());
                 j.putExtra("Email", userDetails.getEmail());
                 startActivity(j);
             }
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent k = new Intent(MainActivity.this, activity_userpanel.class);
                 k.putExtra("name2", userDetails.getDisplayName());
-                k.putExtra("picURL2", userDetails.getPhotoUrl().toString());
+               // k.putExtra("picURL2", userDetails.getPhotoUrl().toString());
                 k.putExtra("Email2", userDetails.getEmail());
                 startActivity(k);
             }
