@@ -53,8 +53,10 @@ public class ForumActivity extends AppCompatActivity {
 //        }
 //        //-----------------------------------------------
         quesList.add(new QuestionFormat("מה הסיבוכית של מיון בועות? ",  "במיון בועות יש 2 לולאות.. למחשבתך"));
-        quesList.add(new QuestionFormat("מה הסיבוכית של מיון מהיר? ",  "במיון מהיר יש לולאת פור וחצי לולאה.. למחשבתך"));
-
+        quesList.add(new QuestionFormat("כמה זה אינסוף בחזקת 0? ",  "2 בחזקת 0 וגם 3 בחזקת 0 ... למחשבתך"));
+        quesList.add(new QuestionFormat("מה אלוהים ברא ביום השבת? ",  "ביום השביעי שבת ויינפש"));
+        quesList.add(new QuestionFormat("האם כדאי לי להשתתף בget smart",  " האפליקציה get smart תעזור לך להתמודד עם עזרה מחבריך :)"));
+        quesList.add( new QuestionFormat("מה ההבדל בין רשות מחוקקת לרשות מבצעת ?",  "רשות מחוקקת כשמה כן היא תפקידה לחוקק חוקים וכן רשות מבצעת תפקידה לאכוף את החוקים ולשמור על הסדר"));
         MyForumRecyclerViewAdapter adapter = new MyForumRecyclerViewAdapter(quesList, this);
         rv.setAdapter(adapter);
         fab_button.setOnClickListener(new View.OnClickListener() {
