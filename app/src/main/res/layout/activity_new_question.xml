@@ -37,31 +37,19 @@
             android:textColor="#FFFFFF"
             android:textSize="22sp" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/input"
-            android:layout_below="@id/app_name"
-            android:layout_marginTop="80dp"
-            android:hint="@string/course_code"
-            android:textColor="#000000"
-            android:paddingLeft="10dp"
-            android:paddingBottom="5dp"
-            android:inputType="number"
-            android:id="@+id/course_code"/>
 
         <EditText
+            android:id="@+id/Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/input"
-            android:layout_below="@id/course_code"
+
             android:layout_marginTop="10dp"
-            android:textColor="#000000"
+            android:background="@drawable/input"
             android:hint="@string/type_title_or_paste_a_link"
+            android:inputType="textEmailSubject"
             android:paddingLeft="10dp"
             android:paddingBottom="5dp"
-            android:inputType="textEmailSubject"
-            android:id="@+id/Title"/>
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="match_parent"

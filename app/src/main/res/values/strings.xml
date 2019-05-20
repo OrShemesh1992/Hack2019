@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UdacityForum</string>
+    <string name="app_name">Get smart</string>
     <string name="login_screen">login screen</string>
     <string name="username">Username</string>
     <string name="full_name">Full name</string>
@@ -57,9 +57,9 @@
 
 
     <string name="enter_your_question_please">Enter Your Question\, Please</string>
-    <string name="course_code">Course code</string>
-    <string name="type_title_or_paste_a_link">Type title or paste a link</string>
-    <string name="details">Type here\n\nPlease provide additional details\nabout your question\n\nThat will help mentor answer your\nquestion.</string>
+
+    <string name="type_title_or_paste_a_link">נושא</string>
+    <string name="details">הקלד שאלה, \nהקפד על כתיבה מפורטת למענה מיטבי.</string>
 
 
 </resources>

@@ -19,10 +19,10 @@ import android.widget.TextView;
 public class SliderAdapter extends PagerAdapter {
     public String[] description = {
 
-            "Ask any questions and get your answers.",
-            "Ask questions or query in these app.",
-            "Get solved answers from our community.",
-            "In the comment section you will be able to see comments on his/her question and can reply back for more discussion.."
+            "פורום שאלות ותשובות לתלמידים מכל השכבות.",
+            "תשאלו שאלות בכל נושא ורמה.",
+            "תקבלו סיוע ומענה מתלמידים בוגרים ומנוסים.",
+            "על ידי מענה על שאלות תוכלו לצבור נקודות ולהעלות את ציוניכם."
     };
     private int[] Slide_images = {
             R.drawable.app_icon,
@@ -31,10 +31,10 @@ public class SliderAdapter extends PagerAdapter {
             R.drawable.comments
     };
     private String[] slide_headings = {
-            "Welcome to Forums",
-            "Ask Questions !",
-            "Get Answers !",
-            "Comments on your question."
+            "ברוכים הבאים לפורום",
+            "תוכלו לשאול שאלות!",
+            "לקבל תשובות!",
+            "או לענות בעצמכם ולהרוויח."
     };
     // Arrays
     private Context context;

@@ -10,7 +10,7 @@
         android:layout_height="@dimen/size_100"
         android:layout_marginLeft="@dimen/margin_20"
         android:layout_marginTop="@dimen/margin_20"
-        android:src="@drawable/android_logo" />
+        android:src="@drawable/y" />
 
     <TextView
         android:id="@+id/tv_name"
