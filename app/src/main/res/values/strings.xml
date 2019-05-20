@@ -10,20 +10,20 @@
     <string name="home_page">Go to home page!</string>
 
     <!--Side Menu-->
-    <string name="home">Home</string>
-    <string name="course">Courses</string>
-    <string name="profile">Profile</string>
-    <string name="logout">Logout</string>
+    <string name="home">בית</string>
+
+    <string name="profile">פרופיל</string>
+    <string name="logout">התנתק/י</string>
 
     <!--View Pager-->
-    <string name="skip">Skip</string>
-    <string name="done">Done</string>
+    <string name="skip">דלג</string>
+    <string name="done">סיים</string>
 
     <!--OptionMenu-->
-    <string name="New">New</string>
-    <string name="top">Top</string>
-    <string name="unread">Unread</string>
-    <string name="badges">Badges</string>
+    <string name="New">חדש</string>
+    <string name="top">שיא</string>
+    <string name="unread">לא נקרא</string>
+    <string name="badges">תגים</string>
 
     <!--SearchIcon-->
     <string name="search">Search</string>
@@ -32,23 +32,23 @@
     <!--Home Activity-->
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
-    <string name="activity_name">Home Activity</string>
+    <string name="activity_name">מסך הבית</string>
     <string name="contact_no">1234567890</string>
 
-    <string name="discussion_form">Discussion Forum</string>
-    <string name="user_panel">User Panel</string>
-    <string name="question">New Question</string>
-    <string name="register">Register</string>
+    <string name="discussion_form">פורום שאלות ותשובות</string>
+    <string name="user_panel">פאנל משתמש</string>
+    <string name="question">שאלה חדשה</string>
+    <string name="register">הרשמה</string>
 
     <string name="title_activity_userpanel">activity_userpanel</string>
 
-    <string name="tab_text_2">Score</string>
-    <string name="tab_text_3">Notifications</string>
+    <string name="tab_text_2">ניקוד</string>
+    <string name="tab_text_3">התראות</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">הגדרות</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="user_activity">User Activity</string>
-    <string name="user_summary">User Summary</string>
+    <string name="user_activity">פעילות משתמש</string>
+
     <string name="user_preferences">User preferences</string>
 
     <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
